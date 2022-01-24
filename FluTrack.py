@@ -81,10 +81,10 @@ def write_tweets_to_json(api, filter, start_date, end_date, region, count, json_
 def tweetPull():
 
     # API stuff
-    access_token = "97325888-4TiheE2EDlLRrRd0i3RyL99uIRMIjqOgMJilVWxsO"
-    access_token_secret = "pHpBZnMavx1lTGA1UnS6Uzs6VvLJuwIBP7ExYXqbozoqg"
-    consumer_key = "BuAsYJarW7WleTg0PrsvrrF2O"
-    consumer_secret = "REOFH6Ue0vewobC1WILncfQrweqPIHc94JTjCBh3iuPhkckYPz"
+    access_token = "..."
+    access_token_secret = "..."
+    consumer_key = "..."
+    consumer_secret = "..."
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
